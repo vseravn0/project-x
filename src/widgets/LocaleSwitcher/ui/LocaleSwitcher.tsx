@@ -10,6 +10,12 @@ export const LocaleSwitcher = () => {
     };
 
     return (
-        <Button className={classNames([], {})} theme={ThemeButton.CLEAR} onClick={toggleLanguage}>{t('Язык')}</Button>
+        <Button
+            className={classNames([], {})}
+            theme={ThemeButton.CLEAR}
+            onClick={toggleLanguage}
+        >
+            {t('language')}
+        </Button>
     );
 };
