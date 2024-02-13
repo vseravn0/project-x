@@ -1,14 +1,14 @@
 {
-    "compilerOptions": {
-      "outDir": "./dist/",
-      "noImplicitAny": true,
-      "module": "ESNext",
-      "target": "es5",
-      "jsx": "react-jsx",
-      "allowJs": true,
-      "moduleResolution": "node", 
-      "baseUrl": ".",
-      "paths": {
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "es5",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "moduleResolution": "node", 
+    "baseUrl": ".",
+    "paths": {
         "*": ["./src/*"]
       },
       "esModuleInterop" : true,
@@ -16,8 +16,11 @@
       "resolveJsonModule": true
     },
     "ts-node": {
-        "compilerOptions": {
-          "module": "CommonJS"
-        }
+      "compilerOptions": {
+        "module": "CommonJS"
       }
-  }
+    },
+    // "include": [
+    //   "./config/jest/setupTests.ts"
+    // ],
+}
