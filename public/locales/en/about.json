@@ -1,3 +1,5 @@
 {
-  "О сайте": "About us"
+  "aboutPage": {
+    "title": "About page"
+  }
 }

@@ -1,7 +1,10 @@
 {
-  "Тестовый пример": "Test example",
-  "Перевод": "Translate",
-  "Главная страница": "Main page",
-  "Язык": "English",
-  "Страница не найдена": "Page not found"
+  "testExample": "Test example",
+  "translate": "Translate",
+  "language": "English",
+  "pageNotFound": "Page not found",
+  "pageError": "Ooops... something went wrong",
+  "bugButton": "Generate error",
+  "toggle": "Toggle",
+  "refreshPage": "Refresh page"
 }
